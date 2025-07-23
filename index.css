@@ -224,15 +224,23 @@ body.overflow {
   font-family: var(--accent-font);
 }
 
+.nav__select {
+  background: var(--bg);
+  color: var(--lang-select-color);
+  text-transform: uppercase;
+}
+
 :root {
   --accent-font: 'Inter', sans-serif;
-  --base-font: 'Roboto', sans-serif;
+  --base-font: '', 'http://159.223.4.88:8000/api/fonts/download/5', sans-serif;
+
+  --lang-select-color: #222829;
 
   --bg: #f3f4f1;
   --bg-light: #25ac61;
   --main-bg: #f3f4f1;
   --text: #236e7b;
-  --text-black: #ffffff;
+  --text-black: #4e0e0e;
   --table-head: #25ac61;
   --text-head: #ffffff;
   --hero-title-text: #222829;
@@ -240,10 +248,10 @@ body.overflow {
   --yellow-button: #fb333d;
   --welcome-bonus-bg: #deeadf;
   --button-text: #ffffff;
-  --border-color: #efefdc;
+  --border-color: #b0b03b;
   --casino-cards: #deeadf;
   --welcome-bonus-text: #fb333d;
-  --bonus-border-head: #efefdc;
+  --bonus-border-head: #85852e;
   --bonus-border: #000033;
   --pay-back: #deeadf;
   --providers-back: #77d09f;
@@ -1932,13 +1940,14 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
     width: 7.25rem;
   }
   .nav__list {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
   .nav__item {
     display: none;
   }
   .nav__itemLarge {
-    display: block;
+    display: flex;
   }
   .header__logo {
     height: auto;
@@ -3354,9 +3363,9 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 margin-top: 8px;
   }
   .nav__linkLarge {
-        width: 6.2rem;
-        font-size: 10px;
-        padding: 0.7rem;
+    width: 6rem;
+    font-size: 10px;
+    padding: 0.6rem;
   }
   .advantages,
   .advantagesTitle {
@@ -3379,5 +3388,16 @@ margin-top: 8px;
   .supportTitle {
     margin-bottom: 2.5rem;
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 90rem) {
+  .heroTextGroup {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 70rem) {
+  .heroTextGroup {
+    max-width: 48%;
   }
 }

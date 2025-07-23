@@ -1,7 +1,8 @@
 {
-    "en": {
+    "ru-ru": {
         "styles": {
             "bg": "#f3f4f1",
+            "lang-select-color": "#222829",
             "bg-light": "#25ac61",
             "welcome-bonus-bg": "#deeadf",
             "top-games-hover-fg": "#deeadf",
@@ -268,16 +269,17 @@
             "copyright": "Paf Casino"
         }
     },
-    "ru-ru": {
+    "en": {
         "styles": {
             "bg": "#f3f4f1",
+            "lang-select-color": "#222829",
             "bg-light": "#25ac61",
             "welcome-bonus-bg": "#deeadf",
             "top-games-hover-fg": "#deeadf",
             "main-bg": "#f3f4f1",
             "text": "#222829",
             "text-black": "#ffffff",
-            "table-head": "#25ac61",
+            "table-head": "#07cf61",
             "text-head": "#ffffff",
             "hero-title-text": "#222829",
             "welcome-bonus-text": "#fb333d",
@@ -295,8 +297,8 @@
             "copyright": "#e7e7d5",
             "starColor": "#17d26a",
             "baseFont": {
-                "value": "Roboto",
-                "isCustom": false
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/1",
+                "isCustom": true
             },
             "primaryFont": {
                 "value": "Inter",
@@ -540,12 +542,13 @@
     "nl": {
         "styles": {
             "bg": "#f3f4f1",
+            "lang-select-color": "#222829",
             "bg-light": "#25ac61",
             "welcome-bonus-bg": "#deeadf",
             "top-games-hover-fg": "#deeadf",
             "main-bg": "#f3f4f1",
             "text": "#236e7b",
-            "text-black": "#ffffff",
+            "text-black": "#4e0e0e",
             "table-head": "#25ac61",
             "text-head": "#ffffff",
             "hero-title-text": "#222829",
@@ -553,9 +556,9 @@
             "yellow": "#17d26a",
             "yellow-button": "#fb333d",
             "button-text": "#ffffff",
-            "border-color": "#efefdc",
+            "border-color": "#b0b03b",
             "casino-cards": "#deeadf",
-            "bonus-border-head": "#efefdc",
+            "bonus-border-head": "#85852e",
             "bonus-border": "#000033",
             "pay-back": "#deeadf",
             "providers-back": "#77d09f",
@@ -564,8 +567,8 @@
             "copyright": "#e7e7d5",
             "starColor": "#17d26a",
             "baseFont": {
-                "value": "Roboto",
-                "isCustom": false
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/5",
+                "isCustom": true
             },
             "primaryFont": {
                 "value": "Inter",
@@ -809,7 +812,7 @@
     "langs": [
         {
             "code": "ru-ru",
-            "name": "russian",
+            "name": "russian (Russia)",
             "isDefault": false
         },
         {
